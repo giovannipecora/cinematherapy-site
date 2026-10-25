@@ -1,5 +1,7 @@
 # CinemaTherapy · sito
 
+> Il documento di progetto completo (Cine Twins, Cloudflare, dominio, cose aperte) è in [`cine-twins/PROGETTO.md`](https://github.com/giovannipecora/cine-twins/blob/main/PROGETTO.md).
+
 Sito statico di CinemaTherapy Production in 5 lingue: italiano (`/`), inglese (`/en/`), francese (`/fr/`), tedesco (`/de/`), spagnolo (`/es/`).
 
 ## Modificare i testi
