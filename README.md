@@ -10,7 +10,11 @@ Sito statico di CinemaTherapy Production in 5 lingue: italiano (`/`), inglese (`
 
 Lo stile è in `public/style.css`. Il dominio usato per canonical, hreflang e sitemap è in `tools/build.py` (`SITE`).
 
-## Pubblicare su Cloudflare Pages
+## Pubblicare su Cloudflare (Workers)
+
+Il repository ha `wrangler.jsonc`: nella schermata «Set up your application» lascia Build command vuoto e Deploy command `npx wrangler deploy`. Poi Settings → Domains & Routes → aggiungi il dominio.
+
+## In alternativa: Cloudflare Pages
 
 Workers & Pages → Create → Pages → Connect to Git → `cinematherapy-site`:
 
